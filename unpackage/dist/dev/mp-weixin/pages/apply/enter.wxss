@@ -1,0 +1,58 @@
+
+page {
+	background-color: #FAF9FE;
+}
+
+.waitAudit.data-v-81a39ce4 {
+  font-family: Arial-BoldItalicMT, Arial;
+  padding: 0 30rpx;
+}
+.waitAudit .waitAuditItem.data-v-81a39ce4 {
+  border-radius: 20rpx;
+  background-color: #FFFFFF;
+  padding: 22rpx 42rpx 40rpx 42rpx;
+  box-sizing: border-box;
+  margin-top: 40rpx;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.waitAudit .waitAuditItem .infoContent.data-v-81a39ce4 {
+  width: 68%;
+}
+.waitAudit .waitAuditItem .infoContent .hotelName.data-v-81a39ce4 {
+  font-size: 36rpx;
+  font-family: YouSheBiaoTiHei;
+  color: #000000;
+}
+.waitAudit .waitAuditItem .infoContent .telphone.data-v-81a39ce4 {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 28rpx;
+}
+.waitAudit .waitAuditItem .infoContent .createTime.data-v-81a39ce4 {
+  margin-top: 8rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: bold;
+  color: #8CAFEE;
+}
+.waitAudit .waitAuditItem .tool.data-v-81a39ce4 {
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.waitAudit .waitAuditItem .tool .remarkBtn.data-v-81a39ce4 {
+  font-size: 24rpx;
+  color: #FFFFFF;
+  border-radius: 20rpx;
+  padding: 12rpx 30rpx;
+  background-color: #2066E0;
+  align-self: flex-end;
+  margin-top: 10rpx;
+}
+.waitAudit .waitAuditItem .tool .remarkBtn.data-v-81a39ce4:active {
+  background-color: #1850b0;
+}
+

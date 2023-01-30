@@ -1,0 +1,99 @@
+
+page {
+	background-color: #FAF9FE;
+}
+
+.waitAudit.data-v-5b0951ab {
+  font-family: Arial-BoldItalicMT, Arial;
+  padding: 0 30rpx;
+}
+.waitAudit .waitAuditItem.data-v-5b0951ab {
+  border-radius: 20rpx;
+  background: linear-gradient(90deg, #FFFFFF 80%, #C5D7F7 100%);
+  padding: 22rpx 42rpx 40rpx 42rpx;
+  box-sizing: border-box;
+  margin-top: 40rpx;
+  position: relative;
+}
+.waitAudit .waitAuditItem .item-top.data-v-5b0951ab {
+  display: flex;
+  align-items: center;
+}
+.waitAudit .waitAuditItem .item-top .hotelName.data-v-5b0951ab {
+  width: 50%;
+  font-size: 36rpx;
+  font-family: YouSheBiaoTiHei;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.waitAudit .waitAuditItem .item-top .createTime.data-v-5b0951ab {
+  font-size: 24rpx;
+  -webkit-transform: scale(0.83);
+          transform: scale(0.83);
+  -webkit-transform-origin: right center;
+          transform-origin: right center;
+  white-space: nowrap;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+}
+.waitAudit .waitAuditItem .remarkContent.data-v-5b0951ab {
+  font-size: 24rpx;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  margin: 26rpx 0 10rpx 0;
+}
+.waitAudit .waitAuditItem .remarkContent .remark.data-v-5b0951ab {
+  display: flex;
+}
+.waitAudit .waitAuditItem .remarkContent .remark .message.data-v-5b0951ab {
+  color: rgba(0, 0, 0, 0.5);
+}
+.waitAudit .waitAuditItem .remarkContent .remark .message .message-row.data-v-5b0951ab {
+  -webkit-transform: scale(0.67);
+          transform: scale(0.67);
+  -webkit-transform-origin: left center;
+          transform-origin: left center;
+}
+.waitAudit .waitAuditItem .remarkContent .remarkBtn.data-v-5b0951ab {
+  font-size: 24rpx;
+  color: #FFFFFF;
+  border-radius: 20rpx;
+  padding: 12rpx 30rpx;
+  background-color: #2066E0;
+  align-self: flex-end;
+  margin-top: 20rpx;
+}
+.waitAudit .waitAuditItem .remarkContent .remarkBtn.data-v-5b0951ab:active {
+  background-color: #1850b0;
+}
+.waitAudit .waitAuditItem .remarkContent .sBtn.data-v-5b0951ab {
+  background-color: #53C79D;
+}
+.waitAudit .waitAuditItem .remarkContent .sBtn.data-v-5b0951ab:active {
+  background-color: #45a682;
+}
+.waitAudit .waitAuditItem .remarkContent .fBtn.data-v-5b0951ab {
+  background-color: #F20706;
+}
+.waitAudit .waitAuditItem .remarkContent .fBtn.data-v-5b0951ab:active {
+  background-color: #ad0404;
+}
+.waitAudit .waitAuditItem .company.data-v-5b0951ab {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 36rpx;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+}
+.waitAudit .sItem.data-v-5b0951ab {
+  background: linear-gradient(90deg, #FFFFFF 80%, #D2F0E5 100%);
+}
+.waitAudit .fItem.data-v-5b0951ab {
+  background: linear-gradient(90deg, #FFFFFF 80%, #FCCECE 100%);
+}
+

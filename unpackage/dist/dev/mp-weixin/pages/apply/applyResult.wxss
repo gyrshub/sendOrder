@@ -1,0 +1,27 @@
+.applyResult.data-v-374727e1 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottomTool.data-v-374727e1 {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 80rpx 60rpx;
+  box-sizing: border-box;
+}
+.loginOut.data-v-374727e1 {
+  color: #2066E0;
+  width: 100%;
+  font-size: 36rpx;
+  font-weight: bold;
+  font-family: YouSheBiaoTiHei;
+  border-radius: 40rpx;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 28rpx 0;
+}
+

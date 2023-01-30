@@ -1,0 +1,105 @@
+
+page {
+	background-color: #FAF9FE;
+}
+
+.order.data-v-3da83e2b {
+  font-family: Arial-BoldItalicMT, Arial;
+  padding: 0 30rpx;
+}
+.order .orderItem.data-v-3da83e2b {
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  padding-top: 10rpx;
+  margin-bottom: 40rpx;
+}
+.order .orderItem .time.data-v-3da83e2b {
+  font-size: 24rpx;
+  color: #8CAFEE;
+  font-weight: bold;
+  margin-bottom: 12rpx;
+}
+.order .orderItem .orderContent.data-v-3da83e2b {
+  border-radius: 20rpx;
+  overflow: hidden;
+  position: relative;
+}
+.order .orderItem .orderContent .tip.data-v-3da83e2b {
+  font-size: 28rpx;
+  font-family: YouSheBiaoTiHei;
+  padding: 8rpx 40rpx;
+  color: #FFFFFF;
+  background: #E0BF20;
+  border-radius: 0px 0px 0px 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.order .orderItem .orderContent .clean.data-v-3da83e2b {
+  background: #46d367;
+}
+.order .orderItem .orderContent .audit.data-v-3da83e2b {
+  background: #53C79D;
+}
+.order .orderItem .orderContent .finish.data-v-3da83e2b {
+  background: #2066E0;
+}
+.order .orderItem .orderContent .error.data-v-3da83e2b {
+  background: #F20706;
+}
+.order .orderItem .orderContent .content-top.data-v-3da83e2b {
+  background-color: #FFFFFF;
+  padding: 36rpx 40rpx 30rpx 40rpx;
+}
+.order .orderItem .orderContent .content-top .roomInfo.data-v-3da83e2b {
+  display: flex;
+  align-items: center;
+}
+.order .orderItem .orderContent .content-top .roomInfo .roomNumber.data-v-3da83e2b {
+  font-size: 32rpx;
+  color: #FFFFFF;
+  background-color: #2066E0;
+  padding: 6rpx 12rpx;
+  -webkit-transform: skewX(-15deg);
+          transform: skewX(-15deg);
+  border-radius: 4rpx;
+  margin-right: 20rpx;
+}
+.order .orderItem .orderContent .content-top .roomInfo .hotelName.data-v-3da83e2b {
+  width: 48%;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: YouSheBiaoTiHei;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.order .orderItem .orderContent .content-top .ownerContent.data-v-3da83e2b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order .orderItem .orderContent .content-top .ownerContent .owner.data-v-3da83e2b {
+  font-size: 28rpx;
+}
+.order .orderItem .orderContent .content-top .ownerContent .owner .owner-row.data-v-3da83e2b {
+  color: #000000;
+  font-weight: bold;
+  margin-top: 12rpx;
+}
+.order .orderItem .content-bottom.data-v-3da83e2b {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333333;
+  padding: 24rpx 40rpx 20rpx 20rpx;
+  background: #DFEBFF;
+  margin-left: 40rpx;
+  border-radius: 0 0 20rpx 20rpx;
+}
+.order .orderItem .content-bottom .remark.data-v-3da83e2b {
+  width: 70%;
+}
+

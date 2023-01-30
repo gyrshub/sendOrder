@@ -1,0 +1,195 @@
+
+page {
+	background-color: #FAF9FE;
+}
+
+.order.data-v-6a0f4894 {
+  font-family: Arial-BoldItalicMT, Arial;
+  padding: 0 30rpx;
+}
+.order .topTool.data-v-6a0f4894 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20rpx 32rpx;
+  box-sizing: border-box;
+}
+.order .topTool .topTool_btn.data-v-6a0f4894 {
+  font-size: 32rpx;
+  color: #ffffff;
+  background-color: #2066E0;
+  border-radius: 20rpx;
+  padding: 10rpx 20rpx;
+}
+.order .orderItem.data-v-6a0f4894 {
+  margin-top: 90rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  padding-top: 10rpx;
+}
+.order .orderItem .orderContent.data-v-6a0f4894 {
+  border-radius: 20rpx;
+  overflow: hidden;
+  position: relative;
+}
+.order .orderItem .orderContent .tip.data-v-6a0f4894 {
+  font-size: 28rpx;
+  font-family: YouSheBiaoTiHei;
+  padding: 8rpx 40rpx;
+  color: #FFFFFF;
+  background: #E0BF20;
+  border-radius: 0px 0px 0px 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.order .orderItem .orderContent .wait.data-v-6a0f4894 {
+  background: #53C79D;
+}
+.order .orderItem .orderContent .content-top.data-v-6a0f4894 {
+  background-color: #FFFFFF;
+  padding: 36rpx 40rpx 30rpx 40rpx;
+}
+.order .orderItem .orderContent .content-top .roomInfo.data-v-6a0f4894 {
+  display: flex;
+  align-items: center;
+}
+.order .orderItem .orderContent .content-top .roomInfo .roomNumber.data-v-6a0f4894 {
+  font-size: 32rpx;
+  color: #FFFFFF;
+  background-color: #2066E0;
+  padding: 6rpx 12rpx;
+  -webkit-transform: skewX(-15deg);
+          transform: skewX(-15deg);
+  border-radius: 4rpx;
+  margin-right: 20rpx;
+}
+.order .orderItem .orderContent .content-top .roomInfo .hotelName.data-v-6a0f4894 {
+  width: 48%;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: YouSheBiaoTiHei;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.order .orderItem .orderContent .content-top .ownerContent.data-v-6a0f4894 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order .orderItem .orderContent .content-top .ownerContent .owner.data-v-6a0f4894 {
+  font-size: 28rpx;
+}
+.order .orderItem .orderContent .content-top .ownerContent .owner .owner-row.data-v-6a0f4894 {
+  color: #000000;
+  font-weight: bold;
+  margin-top: 12rpx;
+}
+.order .orderItem .orderContent .content-top .ownerContent .owner-btn.data-v-6a0f4894 {
+  font-size: 36rpx;
+  color: #999999;
+  font-weight: bold;
+}
+.order .orderItem .orderContent .content-top .ownerContent .stop.data-v-6a0f4894 {
+  color: #2066E0;
+}
+.order .orderItem .content-bottom.data-v-6a0f4894 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333333;
+  padding: 24rpx 40rpx 20rpx 20rpx;
+  background: #DFEBFF;
+  margin-left: 40rpx;
+  border-radius: 0 0 20rpx 20rpx;
+}
+.order .orderItem .content-bottom .remark.data-v-6a0f4894 {
+  width: 70%;
+}
+.order .roomList.data-v-6a0f4894 {
+  margin-top: 18rpx;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  padding: 30rpx 32rpx;
+  box-sizing: border-box;
+}
+.order .roomList .roomItem.data-v-6a0f4894 {
+  width: 100rpx;
+  margin-right: 32rpx;
+  margin-bottom: 20rpx;
+}
+.order .roomList .roomItem.data-v-6a0f4894:nth-of-type(5n) {
+  margin-right: 0;
+}
+.order .roomList .roomItem .workImg.data-v-6a0f4894 {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 38rpx;
+  background-color: #2066E0;
+  box-sizing: border-box;
+  border: 6rpx solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order .roomList .roomItem .hide.data-v-6a0f4894 {
+  background-color: transparent;
+}
+.order .roomList .roomItem .roomNumber.data-v-6a0f4894 {
+  width: 100%;
+  font-size: 28rpx;
+  padding: 4rpx 0;
+  color: #ffffff;
+  background-color: #2066E0;
+  border-radius: 10rpx;
+  text-align: center;
+  border: 6rpx solid transparent;
+  box-sizing: border-box;
+  margin-top: -6rpx;
+}
+.order .roomList .roomItem .againBg.data-v-6a0f4894 {
+  background-color: #FFD200;
+}
+.order .roomList .roomItem .leaveBg.data-v-6a0f4894 {
+  background-color: #3FC192;
+}
+.order .roomList .roomItem .hourBg.data-v-6a0f4894 {
+  background-color: #ff5500;
+}
+.order .roomList .active .workImg.data-v-6a0f4894 {
+  border: 6rpx solid #FFD200;
+}
+.order .roomList .active .roomNumber.data-v-6a0f4894 {
+  border: 6rpx solid #FFD200;
+}
+.order .bottomTool.data-v-6a0f4894 {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20rpx 0 36rpx 0;
+}
+.order .bottomTool .bottomBtn.data-v-6a0f4894 {
+  font-size: 32rpx;
+  color: #FFFFFF;
+  padding: 28rpx 72rpx;
+  border-radius: 40rpx;
+  background-color: #2066E0;
+}
+.order .bottomTool .again.data-v-6a0f4894 {
+  background-color: #FFD200;
+}
+.order .bottomTool .leave.data-v-6a0f4894 {
+  background-color: #3FC192;
+}
+

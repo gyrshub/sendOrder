@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input",
+    "u-upload": "/uni_modules/uview-ui/components/u-upload/u-upload",
+    "u-action-sheet": "/uni_modules/uview-ui/components/u-action-sheet/u-action-sheet"
+  }
+}

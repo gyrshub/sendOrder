@@ -1,0 +1,172 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "待服务"
+			}
+		},
+		{
+			"path": "pages/order/clearAudit",
+			"style": {
+				"navigationBarTitleText": "待审核"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/marketingManager",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/steward",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/apply/index",
+			"style": {
+				"navigationBarTitleText": "签约申请",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/apply/waitAudit",
+			"style": {
+				"navigationBarTitleText": "待审核",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/apply/waitSigned",
+			"style": {
+				"navigationBarTitleText": "待签约",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/apply/enter",
+			"style": {
+				"navigationBarTitleText": "已入驻",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/apply/hotelManagement",
+			"style": {
+				"navigationBarTitleText": "酒店管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/apply/applyResult",
+			"style": {
+				"navigationBarTitleText": "开通账号",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/order/repair",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/order/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/order/record",
+			"style": {
+				"navigationBarTitleText": "历史记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/order/taskList",
+			"style": {
+				"navigationBarTitleText": "派单列表",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/order/taskManagement",
+			"style": {
+				"navigationBarTitleText": "派单管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/order/auditManagement",
+			"style": {
+				"navigationBarTitleText": "审核管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/worker/index",
+			"style": {
+				"navigationBarTitleText": "人员状态",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/worker/choose",
+			"style": {
+				"navigationBarTitleText": "选择阿姨",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"custom": true,
+		"selectedColor": "#FB8146",
+		"color": "#999999",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/home/index"
+			},
+			{
+				"pagePath": "pages/my/index"
+			},
+			{
+				"pagePath": "pages/my/marketingManager"
+			},
+			{
+				"pagePath": "pages/my/steward"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

@@ -1,0 +1,75 @@
+
+page {
+	background-color: #FAF9FE;
+}
+
+.waitAudit.data-v-20c3b01c {
+  font-family: Arial-BoldItalicMT, Arial;
+  padding: 0 30rpx;
+}
+.waitAudit .waitAuditItem.data-v-20c3b01c {
+  border-radius: 20rpx;
+  background-color: #FFFFFF;
+  padding: 22rpx 42rpx 40rpx 42rpx;
+  box-sizing: border-box;
+  margin-top: 40rpx;
+  position: relative;
+}
+.waitAudit .waitAuditItem .hotelName.data-v-20c3b01c {
+  font-size: 36rpx;
+  font-family: YouSheBiaoTiHei;
+  color: #000000;
+}
+.waitAudit .waitAuditItem .company.data-v-20c3b01c {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 36rpx;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+}
+.waitAudit .waitAuditItem .createTime.data-v-20c3b01c {
+  margin-top: -10rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: bold;
+  color: #8CAFEE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.waitAudit .waitAuditItem .createTime .showTime.data-v-20c3b01c {
+  width: 70%;
+}
+.waitAudit .waitAuditItem .createTime .btnStyle.data-v-20c3b01c {
+  border-radius: 20rpx;
+  padding: 10rpx 40rpx;
+  background-color: #2066E0;
+  color: #FFFFFF;
+  font-size: 28rpx;
+}
+.waitAudit .waitAuditItem .createTime .btnStyle.data-v-20c3b01c:active {
+  background-color: #1951b3;
+}
+.waitAudit .waitAuditItem .mark.data-v-20c3b01c {
+  font-size: 24rpx;
+  color: #F20706;
+}
+.waitAudit .waitAuditItem .tip.data-v-20c3b01c {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #2066E0;
+  padding: 10rpx 44rpx;
+  border-radius: 0px 8px 0px 20px;
+  font-size: 40rpx;
+  font-family: YouSheBiaoTiHei;
+  color: #FFFFFF;
+}
+.waitAudit .waitAuditItem .success.data-v-20c3b01c {
+  background: #53C79D;
+}
+.waitAudit .waitAuditItem .fail.data-v-20c3b01c {
+  background: #F20706;
+}
+

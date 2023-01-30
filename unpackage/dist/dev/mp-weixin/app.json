@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/login/login",
+    "pages/order/index",
+    "pages/order/clearAudit",
+    "pages/my/index",
+    "pages/my/marketingManager",
+    "pages/my/steward",
+    "pages/apply/index",
+    "pages/apply/waitAudit",
+    "pages/apply/waitSigned",
+    "pages/apply/enter",
+    "pages/apply/hotelManagement",
+    "pages/apply/applyResult",
+    "pages/order/repair",
+    "pages/order/orderDetail",
+    "pages/order/record",
+    "pages/order/taskList",
+    "pages/order/taskManagement",
+    "pages/order/auditManagement",
+    "pages/worker/index",
+    "pages/worker/choose"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "custom": true,
+    "selectedColor": "#FB8146",
+    "color": "#999999",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index"
+      },
+      {
+        "pagePath": "pages/my/index"
+      },
+      {
+        "pagePath": "pages/my/marketingManager"
+      },
+      {
+        "pagePath": "pages/my/steward"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,109 @@
+
+page {
+	background-color: #FAF9FE;
+}
+
+.hotelOccupancy.data-v-7b9e72f0 {
+  position: relative;
+  padding: 26rpx 32rpx;
+}
+.hotelOccupancy .status_list.data-v-7b9e72f0 {
+  background: #FFFFFF;
+  border-radius: 10rpx;
+  display: flex;
+  font-size: 32rpx;
+}
+.hotelOccupancy .status_list .status_item.data-v-7b9e72f0 {
+  color: #2066E0;
+  flex: 1;
+  text-align: center;
+  padding: 18rpx 0;
+}
+.hotelOccupancy .status_list .active.data-v-7b9e72f0 {
+  background-color: #2066E0;
+  color: #FFFFFF;
+  border-radius: 10rpx;
+}
+.hotelOccupancy .uploadImage.data-v-7b9e72f0 {
+  color: #121212;
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-top: 20rpx;
+}
+.hotelOccupancy .uploadImage .imageList.data-v-7b9e72f0 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32rpx;
+}
+.hotelOccupancy .uploadImage .imageList .imageItem.data-v-7b9e72f0 {
+  border-radius: 6rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.hotelOccupancy .uploadImage .imageList .imageItem .imageItem-info.data-v-7b9e72f0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  color: #707070;
+}
+.hotelOccupancy .uploadImage .imageList .imageItem .borderImage.data-v-7b9e72f0 {
+  width: 248rpx;
+  height: 160rpx;
+}
+.hotelOccupancy .formContent.data-v-7b9e72f0 {
+  color: #121212;
+  font-size: 28rpx;
+  padding-bottom: 180rpx;
+}
+.hotelOccupancy .formContent .form-item.data-v-7b9e72f0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32rpx 0;
+  border-bottom: 2rpx solid #F5F5F5;
+}
+.hotelOccupancy .formContent .form-item .title.data-v-7b9e72f0 {
+  width: 30%;
+  font-weight: bold;
+}
+.hotelOccupancy .formContent .form-item .form-input.data-v-7b9e72f0 {
+  width: 68%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.hotelOccupancy .formContent .form-item .form-region.data-v-7b9e72f0 {
+  width: 68%;
+  overflow-x: auto;
+  text-align: right;
+  white-space: nowrap;
+  color: #B2B2B2;
+}
+.hotelOccupancy .formContent .form-item .active.data-v-7b9e72f0 {
+  color: #121212;
+}
+.hotelOccupancy .loginOut.data-v-7b9e72f0 {
+  color: #7E7D80;
+  width: 100%;
+  margin: 40rpx 0;
+  font-size: 36rpx;
+  font-weight: bold;
+  font-family: YouSheBiaoTiHei;
+  border-radius: 40rpx;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 28rpx 0;
+}
+.hotelOccupancy .borderStyle.data-v-7b9e72f0 {
+  border-radius: 20rpx;
+  background-color: white;
+  padding: 32rpx 32rpx 40rpx 32rpx;
+  margin-top: 20rpx;
+}
+

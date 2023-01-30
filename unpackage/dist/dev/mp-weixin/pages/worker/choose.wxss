@@ -1,0 +1,98 @@
+
+page {
+	background-color: #FAF9FE;
+}
+
+.worker.data-v-12919bc2 {
+  font-family: Arial-BoldItalicMT, Arial;
+  padding: 0 30rpx;
+}
+.worker .workerItem.data-v-12919bc2 {
+  border-radius: 20rpx;
+  background-color: #FFFFFF;
+  padding: 26rpx 0 34rpx 34rpx;
+  box-sizing: border-box;
+  margin-top: 40rpx;
+  position: relative;
+  margin-right: 30rpx;
+  display: flex;
+  border: 6rpx solid transparent;
+}
+.worker .workerItem .tip.data-v-12919bc2 {
+  position: absolute;
+  font-size: 38rpx;
+  font-weight: bold;
+  right: -32rpx;
+  top: 30%;
+  width: 240rpx;
+  background-color: #1E5BC7;
+  border-radius: 20rpx 0 0 30rpx;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 4rpx 0;
+  box-sizing: border-box;
+  -webkit-transform: rotate(15deg) skewX(15deg);
+          transform: rotate(15deg) skewX(15deg);
+}
+.worker .workerItem .tip.data-v-12919bc2::after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -2rpx;
+  bottom: -12rpx;
+  border-left: 20rpx solid transparent;
+  top: 20rpx solid transparent;
+  border-right: 20rpx solid transparent;
+  border-bottom: 14rpx solid #094294;
+  border-radius: 0 0 0 10rpx;
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+}
+.worker .workerItem .serveImg.data-v-12919bc2 {
+  border-radius: 20rpx;
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 40rpx;
+  flex-shrink: 0;
+}
+.worker .workerItem .serveInfo.data-v-12919bc2 {
+  flex: 1;
+}
+.worker .workerItem .serveInfo .serveInfo-title.data-v-12919bc2 {
+  font-size: 36rpx;
+  color: #000000;
+  font-family: YouSheBiaoTiHei;
+  font-weight: bold;
+  margin-bottom: 14rpx;
+}
+.worker .workerItem .serveInfo .serveInfo-row.data-v-12919bc2 {
+  font-size: 24rpx;
+  color: #333333;
+}
+.worker .active.data-v-12919bc2 {
+  border: 6rpx solid #094BC9;
+}
+.worker .bottomTool.data-v-12919bc2 {
+  width: 100%;
+  position: fixed;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+  left: 0;
+  bottom: 80rpx;
+}
+.worker .loginOut.data-v-12919bc2 {
+  color: #7E7D80;
+  font-size: 36rpx;
+  font-weight: bold;
+  font-family: YouSheBiaoTiHei;
+  border-radius: 40rpx;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 28rpx 0;
+}
+.worker .lightText.data-v-12919bc2 {
+  color: #094BC9;
+}
+

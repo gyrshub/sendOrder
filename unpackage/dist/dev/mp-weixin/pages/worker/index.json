@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "人员状态",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty"
+  }
+}
